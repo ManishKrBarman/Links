@@ -1,7 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
-
-
+    @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
 
     p {
         font-family: "Edu AU VIC WA NT Hand", cursive;
@@ -26,9 +25,15 @@
     }
 
     p {
-        font-family: "Londrina Sketch", sans-serif;
+        font-family: "doto", sans-serif;
         font-weight: bolder;
         font-size: 40px;
+    }
+
+    .projects {
+        display: flex;
+        align-items: center;
+        justify-items: center;
     }
 
     .cudos {
@@ -42,6 +47,19 @@
         border: 2px solid burlywood;
         border-radius: 30px;
         background-color: brown;
+    }
+
+    .todo {
+        text-decoration: none;
+        margin-top: 3vh;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        font-size: larger;
+        font-weight: bolder;
+        font-family: sans-serif;
+        border: 2px solid rgb(51, 176, 235);
+        border-radius: 30px;
+        background-color: rgb(42, 104, 165);
     }
 
     .box {
@@ -63,6 +81,7 @@
         width: 250px;
         display: flex;
         margin: 10px;
+        margin-bottom: 15px;
         padding: 10px;
         border: 2px solid rgb(255, 111, 0);
         outline: 4px solid rgb(255, 1, 137);
